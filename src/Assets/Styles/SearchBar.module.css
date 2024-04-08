@@ -1,0 +1,7 @@
+.CustomIcon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    pointer-events: none; /* This is important to prevent the icon from being clicked */
+  }

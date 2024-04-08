@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Components/Reusable/Header";
+import Header from "../Components/Reusable/Header3";
 import SectionOur from "../Components/Reusable/SectionOur";
 import SectionOur2 from "../Components/Reusable/SectionOur2";
 import Section from "../Components/Reusable/Section";
@@ -15,7 +15,8 @@ const OurHistory = () => {
     return (
         <>
             <Header img={"bg-[url(./Assets/Img/banner-4.png)]"}
-                Descripcion={"At Maxximum Realty, we're pioneers in the real estate industry, harnessing the power of AI and the latest technologies to revolutionize the agent experience."}
+                Titulo={""}
+                Descripcion={"Our most lucruative 100%  commission plans, Our Max out 100% program is designed for both seasoned and aspiring real estate agents who are looking to elevate their business to the next level."}
                 Buton={false}
             />
             <SectionOur
