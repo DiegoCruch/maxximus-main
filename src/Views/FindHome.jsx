@@ -45,11 +45,10 @@ const FindHome = () => {
         <option>Greedo</option>
       </select>
       </div>
-
-      <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered w-5/6 max-w-sm pl-4 py-4 sm:py-8  sm:rounded-r-4xl text-center focus:outline-none mb-4 sm:mb-0">
-  <RiSendPlaneLine className="text-gray-400 w-32 h-8" />
-  <input type="search" name="search" placeholder="City, Neighborhood, ZIP, Address" className="bg-[#14253E] opacity-65 w-5/6 sm:w-full sm:rounded-r-4xl focus:outline-none mb-4 sm:mb-0 rounded-full mt-4 sm:mt-0" />
-</div>
+              <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered w-5/6 max-w-sm pl-4 py-4 sm:py-8  sm:rounded-r-4xl text-center focus:outline-none mb-4 sm:mb-0">
+          <RiSendPlaneLine className="text-gray-400 w-32 h-8" />
+          <input type="search" name="search" placeholder="City, Neighborhood, ZIP, Address" className="bg-[#14253E] opacity-65 w-5/6 sm:w-full sm:rounded-r-4xl focus:outline-none mb-4 sm:mb-0 rounded-full mt-4 sm:mt-0" />
+        </div>
           <button type="submit" className="w-5/6 sm:w-auto px-16 py-4 sm:py-8 rounded-l-none sm:rounded-l-4xl rounded-4xl sm:rounded-4xl bg-[#0A182E] text-white">
                     Search
                   </button>
