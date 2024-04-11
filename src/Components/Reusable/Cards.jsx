@@ -20,167 +20,150 @@ const Cards = () => {
 </h2>
 
             </div>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-                <div className="max-w-lg mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
+            <div className="grid grid-cols-1  sm:grid-cols-3 gap-8 p-2 0">
+            <div className=" bg-white overflow-hidden relative rounded-lg ml-" style={{ borderRadius: "5px" }}>
                     <div className="flex items-center">
-                        <div className="w-36 sm:w-36 flex items-center justify-center">
-                            <img src={Cards2} className="h-auto w-full max-h-72 object-contain" alt="Imagen de perfil" />
+                        <div className="w-36 sm:w-52 flex items-center justify-center">
+                            <img src={Cards2} className="h-full w-full object-cover mr-8 " style={{ borderRadius: "5px" }} alt="Imagen de perfil" />
                         </div>
                         <div className="w-2/3 sm:w-3/4 p-2 mt-8">
                             <p className="text-base mb-1">+1(714) 272-2229</p>
                             <p className="text-base mb-1">max@maxximumrealty.com</p>
                             <p className="text-base mb-1">License ID: 01523101</p>
-                            <p className="text-base mb-1">
-                                <span className="text-[#0A182E]">99</span> Total Sales
-                            </p>
+
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white rounded-4xl px-1 py-0">Max Sandoval-Broker</p>
+                        <p className="text-center bg-[#0A182E] text-white px-1 py-0"style={{ borderRadius: "5px" }} >Max Sandoval-Broker</p>
                     </div>
                 </div>
-                <div className="max-w-lg mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
+
+                <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
                     <div className="flex items-center">
-                        <div className="w-36 sm:w-36 flex items-center justify-center">
-                            <img src={AgentCard5} className="h-auto w-full max-h-72 object-contain" alt="Imagen de perfil" />
+                        <div className="w-36 sm:w-52 flex items-center justify-center">
+                            <img src={AgentCard5} className="h-full w-full object-cover mr-8 " style={{ borderRadius: "5px" }} alt="Imagen de perfil" />
                         </div>
                         <div className="w-2/3 sm:w-3/4 p-2 mt-8">
-                            <p className="text-base mb-1">+1(714) 272-2229</p>
-                            <p className="text-base mb-1">mika@maxximumrealty.com</p>
+                            <p className="text-base mb-1">+1(760) 529-6511</p>
+                            <p className="text-base mb-1">mikalamons@gmail.com</p>
                             <p className="text-base mb-1">License ID: 02078194</p>
-                            <p className="text-base mb-1">
-                                <span className="text-[#0A182E]">99</span> Total Sales
-                            </p>
+
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white rounded-4xl px-1 py-0">Mika Lamons-Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white px-1 py-0"style={{ borderRadius: "5px" }} >Mika Lamons - Agent</p>
                     </div>
                 </div>
-                <div className="max-w-lg mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
+                <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
                     <div className="flex items-center">
-                        <div className="w-36 sm:w-36 flex items-center justify-center">
-                            <img src={AgentCard1} className="h-auto w-full max-h-72 object-contain" alt="Imagen de perfil" />
+                        <div className="w-36 sm:w-52 flex items-center justify-center">
+                            <img src={AgentCard1} className="h-full w-full object-cover mr-8 " style={{ borderRadius: "5px" }} alt="Imagen de perfil" />
                         </div>
                         <div className="w-2/3 sm:w-3/4 p-2 mt-8">
                             <p className="text-base mb-1">+1(619) 977-5076</p>
-                            <p className="text-base mb-1">hillary@maxximumrealty.com</p>
+                            <p className="text-base mb-1">hillarymbrown86@gmail.com</p>
                             <p className="text-base mb-1">License ID: 02151669</p>
-                            <p className="text-base mb-1">
-                                <span className="text-[#0A182E]">99</span> Total Sales
-                            </p>
+
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white rounded-4xl px-1 py-0">Hillary Brown-Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white px-1 py-0"style={{ borderRadius: "5px" }} >Hillary Brown - Agent</p>
                     </div>
                 </div>
-                <div className="max-w-lg mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
+                <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
                     <div className="flex items-center">
-                        <div className="w-36 sm:w-36 flex items-center justify-center">
-                            <img src={Cards1} className="h-auto w-full max-h-72 object-contain" alt="Imagen de perfil" />
+                        <div className="w-36 sm:w-52 flex items-center justify-center">
+                            <img src={Cards1} className="h-full w-full object-cover mr-8 " style={{ borderRadius: "5px" }} alt="Imagen de perfil" />
                         </div>
                         <div className="w-2/3 sm:w-3/4 p-2 mt-8">
                             <p className="text-base mb-1">+1(951) 609-5534</p>
-                            <p className="text-base mb-1">desiree@maxximumrealty.com</p>
-                            <p className="text-base mb-1">License ID: 01523101</p>
-                            <p className="text-base mb-1">
-                                <span className="text-[#0A182E]">99</span> Total Sales
+                            <p className="text-base mb-1">desiree.sukhov@gmail.com</p>
+                            <p className="text-base mb-1">License ID: 02195580
                             </p>
+
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white rounded-4xl w-48 px-1 py-0">Desiree Sukhov-Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white px-1 py-0"style={{ borderRadius: "5px" }} >Desiree Sukhov - Agent</p>
                     </div>
                 </div>
-                <div className="max-w-lg mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
-                    <div className="flex items-center">
-                        <div className="w-36 sm:w-36 flex items-center justify-center">
-                            <img src={AgentCard4} className="h-auto w-full max-h-72 object-contain" alt="Imagen de perfil" />
-                        </div>
-                        <div className="w-2/3 sm:w-3/4 p-2 mt-8">
-                            <p className="text-base mb-1">+1(951) 467-8144</p>
-                            <p className="text-base mb-1">courtneyclarks@gmail.com</p>
-                            <p className="text-base mb-1">License ID: 02179312</p>
-                            <p className="text-base mb-1">
-                                <span className="text-[#0A182E]">99</span> Total Sales
-                            </p>
-                        </div>
+                <div className="bg-white overflow-hidden relative rounded-lg" style={{ borderRadius: "5px" }}>
+                <div className="flex items-center h-full justify-end"> {/* Added h-full for vertical expansion */}
+                <div className="relative h-full w-48 sm:w-64"> {/* Relative container for image */}
+                <img src={AgentCard4} className="h-full object-cover" style={{ top: 0, borderRadius: "5px" }} alt="Imagen de perfil" /> {/* Adjusted image for height */}
+                </div>
+                    <div className="flex flex-col justify-start p-4 mt-8 pl-4">
+                    <p className="text-base mb-1">+1(951) 467-8144</p>
+                    <p className="text-4xs mb-1">courtneyclarkhomes@gmail.com</p>
+                    <p className="text-base mb-1">License ID: 01523101</p>
                     </div>
+                </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white rounded-4xl w-52 px-1 py-0">Courtney Lee Clark-Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white w-52 px-1 py-0"style={{ borderRadius: "5px" }} >CourtneyLee Clark - Agent</p>
                     </div>
                 </div>
-                <div className="max-w-lg mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
+                <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
                     <div className="flex items-center">
-                        <div className="w-36 sm:w-36 flex items-center justify-center">
-                            <img src={AgentCard4} className="h-auto w-full max-h-72 object-contain" alt="Imagen de perfil" />
+                        <div className="w-36 sm:w-52 flex items-center justify-center">
+                            <img src={AgentCard2} className="h-full w-full object-cover mr-8 " style={{ borderRadius: "5px" }} alt="Imagen de perfil" />
                         </div>
                         <div className="w-2/3 sm:w-3/4 p-2 mt-8">
                             <p className="text-base mb-1">+1(310) 800-1326</p>
-                            <p className="text-base mb-1">smontalvo@maxximumrealty.com</p>
+                            <p className="text-base mb-1">smontalvo562@gmail.com</p>
                             <p className="text-base mb-1">License ID: 02127783</p>
-                            <p className="text-base mb-1">
-                                <span className="text-[#0A182E]">99</span> Total Sales
-                            </p>
+
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white rounded-4xl w-52 px-1 py-0">Salvador Montalvo-Angent</p>
+                        <p className="text-center bg-[#0A182E] text-white w-52 px-1 py-0"style={{ borderRadius: "5px" }} >Salvador Montalvo - Agent</p>
                     </div>
                 </div>
-                <div className="max-w-lg mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
+                <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
                     <div className="flex items-center">
-                        <div className="w-36 sm:w-36 flex items-center justify-center">
-                            <img src={AgentCard} className="h-auto w-full max-h-72 object-contain" alt="Imagen de perfil" />
+                        <div className="w-36 sm:w-52 flex items-center justify-center">
+                            <img src={AgentCard} className="h-full w-full object-cover mr-8 " style={{ borderRadius: "5px" }} alt="Imagen de perfil" />
                         </div>
                         <div className="w-2/3 sm:w-3/4 p-2 mt-8">
                             <p className="text-base mb-1">+1(310) 910-5572</p>
-                            <p className="text-base mb-1">fernando@maxximumrealty.com</p>
+                            <p className="text-base mb-1">ferndoesdeals@gmail.com</p>
                             <p className="text-base mb-1">License ID: 02125942</p>
-                            <p className="text-base mb-1">
-                                <span className="text-[#0A182E]">99</span> Total Sales
-                            </p>
+
                         </div>
                     </div>
-                    <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white rounded-4xl w-56 px-1 py-0">Fernando Hernandez-Agent</p>
+                    <div className="absolute top-5 left-52 transform -translate-x-1/2 -translate-y-1/2">
+                        <p className="text-center bg-[#0A182E] text-white w-64 px-1 py-0"style={{ borderRadius: "5px" }} >Fernando Hernández - Agent</p>
                     </div>
                 </div>
-                <div className="max-w-lg mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
+                <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
                     <div className="flex items-center">
-                        <div className="w-36 sm:w-36 flex items-center justify-center">
-                            <img src={AgentCard3} className="h-auto w-full max-h-72 object-contain" alt="Imagen de perfil" />
+                        <div className="w-36 sm:w-52 flex items-center justify-center">
+                            <img src={AgentCard3} className="h-full w-full object-cover mr-8 " style={{ borderRadius: "5px" }} alt="Imagen de perfil" />
                         </div>
-                        <div className="w-2/3 sm:w-3/4 p-2 mt-8">
-                            <p className="text-base mb-1">+1(714) 904-0526</p>
-                            <p className="text-base mb-1">patty@maxximumrealty.com</p>
+                        <div className="w-2/3 sm:w-3/4 p-2 mt-8 ">
+                            <p className="text-base mb-1">+1(714)904-0526</p>
+                            <p className="text-base mb-1">pattybeltran0226@gmail.com</p>
                             <p className="text-base mb-1">License ID: 01431971</p>
-                            <p className="text-base mb-1">
-                                <span className="text-[#0A182E]">99</span> Total Sales
-                            </p>
+
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white rounded-4xl w-52 px-1 py-0">Patricia Beltrán-Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white px-1 py-0"style={{ borderRadius: "5px" }} >Patricia Beltrán - Agent</p>
                     </div>
                 </div>
-                <div className="max-w-lg mx-auto bg-white border border-gray-200 rounded-lg overflow-hidden relative">
+                <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
                     <div className="flex items-center">
-                        <div className="w-36 sm:w-36 flex items-center justify-center">
-                            <img src={AgentCard1} className="h-auto w-full max-h-72 object-contain" alt="Imagen de perfil" />
+                        <div className="w-36 sm:w-52 flex items-center justify-center">
+                            <img src={AgentCard1} className="h-full w-full object-cover mr-8 " style={{ borderRadius: "5px" }} alt="Imagen de perfil" />
                         </div>
-                        <div className="w-2/3 sm:w-3/4 p-2 mt-8">
-                        <p className="text-base mb-1">+1(619) 977-5076</p>
-                            <p className="text-base mb-1">hillary@maxximumrealty.com</p>
-                            <p className="text-base mb-1">License ID: 02151669</p>
-                            <p className="text-base mb-1">
-                                <span className="text-[#0A182E]">99</span> Total Sales
-                            </p>
+                        <div className="w-2/3 sm:w-3/4 p-2 mt-8 mr-5">
+                            <p className="text-base mb-1">+1(310) 800-1326</p>
+                            <p className="text-base mb-1">smontalvo562@gmail.com</p>
+                            <p className="text-base mb-1">License ID: 02127783</p>
+
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white rounded-4xl px-1 py-0">Hillary Brown-Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white w-52 px-1 py-0"style={{ borderRadius: "5px" }} >Salvador Montalvo - Agent</p>
                     </div>
                 </div>
             </div>

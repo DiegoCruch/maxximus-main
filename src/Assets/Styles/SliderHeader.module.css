@@ -1,0 +1,3 @@
+.slidercontainer {
+    height: calc(89vh - 20px); /* Subtract any additional space or padding if needed */
+}

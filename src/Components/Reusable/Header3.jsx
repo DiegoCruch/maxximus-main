@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import item from "../../Assets/Img/item.png";
 
 const Header3 = ({ img, Titulo, Subtitulo, Descripcion, Buton }) => {
   useEffect(() => {
@@ -22,6 +23,11 @@ const Header3 = ({ img, Titulo, Subtitulo, Descripcion, Buton }) => {
           <p className="mt-4 max-w-lg sm:text-xl/relaxed text-left">
             {Descripcion}
           </p>
+          <img
+                        className="absolute z-10 right-80 -mr-[4rem] mt-[11.5rem] invisible md:visible "
+                        src={item}
+                        alt="Property"
+                        />
           {Buton ?? (
             <div className="mt-8 flex flex-wrap gap-4 lg:items-center text-center">
               <a
@@ -32,6 +38,7 @@ const Header3 = ({ img, Titulo, Subtitulo, Descripcion, Buton }) => {
                 Learn More
               </a>
             </div>
+            
           )}
         </div>
       </div>

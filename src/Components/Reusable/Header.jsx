@@ -31,6 +31,7 @@ const Header = ({ img, Titulo, Subtitulo, Descripcion, Buton }) => {
                 Learn More
               </a>
             </div>
+            
           )}
         </div>
       </div>

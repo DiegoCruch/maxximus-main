@@ -7,6 +7,7 @@ import { RiHome2Line } from 'react-icons/ri';
 import { RiMoneyDollarBoxLine } from "react-icons/ri";
 import { AiOutlineSearch } from 'react-icons/ai';
 import { RiSendPlaneLine } from "react-icons/ri";
+import item from "../Assets/Img/item.png";
 
 
 
@@ -19,7 +20,7 @@ const FindHome = () => {
   return (
     <>
     <div className="bg-[#002867] relative">
-<section className="bg-[url(./Assets/Img/banner1.png)] h-screen bg-cover bg-no-repeat flex flex-col items-center justify-center bg-[#0A182E]">
+<section className="bg-[url(./Assets/Img/HeaderFindHome.png)]  h-screen bg-cover bg-no-repeat flex flex-col items-center justify-center ">
   <div className="text-center text-white mb-8">
     <h1 className="text-4xl font-bold">Find a Home</h1>
   </div>
@@ -54,6 +55,11 @@ const FindHome = () => {
                   </button>
               </form>
             </div>
+            <img
+                        className="absolute z-10 right-80 mr-[8rem] mt-[47rem] invisible md:visible "
+                        src={item}
+                        alt="Property"
+                        />
           </section>
           <img
                   className="absolute  z-10 right-0  -mt-44 invisible md:visible "

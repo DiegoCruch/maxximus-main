@@ -12,12 +12,26 @@ const NavBar = () => {
     { link: "events", text: "Events", id: 4 },
   ];
 
+  
   const [active, setActive] = useState(0);
+
+  const [hover, setHover] = useState(false);
+
+  const handleHoverOut = () => {
+    setHover(false);
+  };
+
+  const handleState = (index) => {
+    setActive(index);
+    index === 1 ? setHover(true) : setHover(false);
+  };
+
 
   const windowDimensions = useWindowSize();
   const { isMenuOpen, toggleMenu } = useMenuToggle();
   useEffect(() => {
   }, [active]); 
+  
 
   return (
     <>
@@ -25,7 +39,7 @@ const NavBar = () => {
         <div
           className={
             !isMenuOpen
-              ? "flex relative py-10 items-center w-full px-4 justify-between bg-[#002867]/[.9] z-40 shadow-lg"
+              ? "flex relative py-5 items-center w-full px-4 justify-between bg-[#002867]/[.9] z-40 shadow-lg"
               : "flex fixed flex-col h-screen items-center w-screen px-4 justify-around bg-[#002867] z-40"
           }
         >
@@ -41,14 +55,17 @@ const NavBar = () => {
           {windowDimensions.innerWidth > 1200 ? (
             <div className="w-3/7  text-center ">
               {links.map((route, index) => (
+                <>
+                {console.log('este es el index', active)}
                 <Link
                   className={active === index ? "text-2xl text-Maxximum-Blanco font-bold lg:ml-7" : "text-xl text-white font-Poppins-semiBold lg:ml-7"}
                   to={route.link}
                   key={route.id}
-                  onClick={() => setActive(index)}
+                  onClick={() => handleState(index)}
                 >
                   {route.text}
                 </Link>
+                </>
               ))}
             </div>
           ) : (
@@ -106,8 +123,8 @@ const NavBar = () => {
             </>
           )}
         </div>
-      </div>
-      {active === 1 ? <div className="sticky top-30 z-10 h-20 w-full bg-white flex justify-center items-center">
+      
+      {hover === true ? <div onMouseLeave={handleHoverOut} className="h-20 w-full bg-white flex justify-center items-center">
         <div className="flex">
           <Link
             to="/our-history"
@@ -125,6 +142,7 @@ const NavBar = () => {
           </Link>
         </div>
       </div> : null}
+      </div>
     </>
 
   );
