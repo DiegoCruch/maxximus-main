@@ -3,7 +3,7 @@ import React from "react";
 const SectionForm = ({ img, Titulo, SubTitulo, Descripcion }) => {
   return (
 
-<section className="relative bg-cover bg-[url(./././Assets/Img/bannerform.png)] bg-center bg-custom-large sm:bg-custom-small">
+<section className="h-auto relative bg-cover bg-[url(./././Assets/Img/bannerform.png)] bg-center bg-custom-large sm:bg-custom-small">
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative mx-auto max-w-screen-xl lg:flex lg:h-screen lg:items-center">
       <div className="max-w-xl text-center sm:text-left text-white lg:mr-auto mt-12">

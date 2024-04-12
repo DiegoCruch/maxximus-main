@@ -2,9 +2,10 @@ import React from "react";
 
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import Corousel1 from "../../Assets/Img/Corousel1.png";
-import Corousel2 from "../../Assets/Img/Corousel2.png";
-import Corousel3 from "../../Assets/Img/Corousel3.png";
+import Corousel1 from "../../Assets/Img/Carousel/CR3.png";
+import Corousel2 from "../../Assets/Img/Carousel/CR2.png";
+import Corousel3 from "../../Assets/Img/Carousel/CR1.png";
+import Corousel4 from "../../Assets/Img/Carousel/CR4.png";
 import EventsT from "../../Assets/Img/Titles/EventsT.png";
  
 
@@ -42,7 +43,7 @@ const Carousel = () => {
                             <div id="slider" className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
                                 <Slide index={0}>
                                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src={Corousel1} alt="black chair and white table" className="object-cover object-center w-full" />
+                                        <img src={Corousel4} alt="black chair and white table" className="object-cover object-center w-full" />
                                         <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                             <div className="flex h-full items-end pb-6">
                                             </div>
@@ -51,7 +52,7 @@ const Carousel = () => {
                                 </Slide>
                                 <Slide index={1}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src={Corousel2} alt="sitting area" className="object-cover object-center w-full" />
+                                            <img src={Corousel3} alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute inset-0 flex flex-col justify-center items-center p-6">
                                                 <h1 className="lg:text-xl leading-8  text-white font-bold">Real State 24</h1>
                                                 <h3 className="text-white font-light">Event for real estate</h3>
@@ -68,7 +69,7 @@ const Carousel = () => {
                                     </Slide>
                                 <Slide index={2}>
                                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src={Corousel3} alt="sitting area" className="object-cover object-center w-full" />
+                                        <img src={Corousel1} alt="sitting area" className="object-cover object-center w-full" />
                                         <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                             <div className="flex h-full items-end pb-6">
                                             </div>
@@ -77,7 +78,7 @@ const Carousel = () => {
                                 </Slide>
                                 <Slide index={3}>
                                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src={Corousel1} alt="sitting area" className="object-cover object-center w-full" />
+                                        <img src={Corousel2} alt="sitting area" className="object-cover object-center w-full" />
                                         <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                             <div className="flex h-full items-end pb-6">
                                             </div>
@@ -87,7 +88,7 @@ const Carousel = () => {
 
                                 <Slide index={4}>
                                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src={Corousel1} alt="sitting area" className="object-cover object-center w-full" />
+                                        <img src={Corousel4} alt="sitting area" className="object-cover object-center w-full" />
                                         <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                             <div className="flex h-full items-end pb-6">
                                             </div>

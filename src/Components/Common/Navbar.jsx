@@ -43,7 +43,7 @@ const NavBar = () => {
               : "flex fixed flex-col h-screen items-center w-screen px-4 justify-around bg-[#002867] z-40"
           }
         >
-          <div className="justify-items-center w-2/7 lg:ml-12 ">
+          <div className="justify-items-center w-2/7 lg:ml-32 ">
             <Link to="/">
               <img
                 src={maxximum}
@@ -115,7 +115,7 @@ const NavBar = () => {
               <div className="flex w-1/7 text-center">
                 <Link
                   to="/realtor"
-                  className="text-black rounded-4xl bg-Maxximum-Blanco rounded-xl py-3 px-12 font-bold ml-32 hover:bg-[#0A182E] hover:text-white"
+                  className="text-black rounded-4xl bg-Maxximum-Blanco rounded-xl py-3 px-12 font-bold lg:mr-32 hover:bg-[#0A182E] hover:text-white "
                 >
                   JOIN OUR TEAM
                 </Link>

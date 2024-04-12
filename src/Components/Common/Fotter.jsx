@@ -1,5 +1,5 @@
 import React from "react";
-import maxximu from "../../Assets/Img/maxximum.png";
+import maxximu from "../../Assets/Img/Logo/maxximuml.png";
 import Phone from "../../Assets/Img/phone.png";
 import mail from "../../Assets/Img/mail-01.png";
 import marker from "../../Assets/Img/marker-pin-01.png";
@@ -7,13 +7,13 @@ import User from "../../Assets/Img/image-user.png";
 
 const Footer = () => {
   return (
-    <div className="flex items-center justify-center w-full bg-[#0A182E] border-t-2 border-white">
+    <div className="flex items-center justify-center w-full bg-[#0A182E] ">
       <footer className="w-full text-gray-700 bg-[#0A182E] body-font">
-        <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
-        <div className="flex justify-center items-center mb-4 sm:mb-0">
-          <img src={maxximu} alt="Maxximum Logo" className="h-20 sm:h-32 w-auto mx-auto" />
+        <div className="container flex flex-col flex-wrap px-5 py-8 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
+        <div className="flex justify-center items-center mb-4 sm:mb-0 sm:ml-8">
+          <img src={maxximu} alt="Maxximum Logo" className="h-20  sm:h-32 w-auto mx-auto" />
         </div>
-        <div className="w-full px-4 lg:w-1/4 md:w-1/2 text-left flex flex-col flex-grow h-full justify-center items-center">
+        <div className="w-full px-4 lg:w-1/4 md:w-1/2 text-left flex flex-col flex-grow h-full justify-center items-center sm:mr-32">
           <div className="mr-4 md:mb-6">
             <div className="text-white sm:text-center">
               <div className="flex items-start mb-2">
@@ -48,7 +48,7 @@ const Footer = () => {
 
 
 
-            <div className="w-full px-4 lg:w-1/4 md:w-1/2 mt-24"> {/* Agregado margen superior */}
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2 mt-24 sm:-mr-16"> {/* Agregado margen superior */}
               <div className="flex justify-between mb-4">
                 <a href="#" className="text-white hover:underline">
                   Terms of Services

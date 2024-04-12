@@ -25,7 +25,7 @@ const Sliderheader = () => {
     }, []);
 
     return (
-        <div className="sm:h-[76vh]" style={{ position: 'relative'}}>
+        <div className="sm:h-auto " style={{ position: 'relative'}}>
             {images.map((image, index) => (
                 <div key={index} className={`ease-linear ${index === currentSlide ? '' : 'hidden'}`} data-carousel-item={index === currentSlide ? 'active' : ''}>
                     <div className="relative w-full">
