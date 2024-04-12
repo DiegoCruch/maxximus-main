@@ -35,11 +35,11 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="sticky top-0 z-50">
+      <div className="fixed top-0 z-50 w-full">
         <div
           className={
             !isMenuOpen
-              ? "flex relative py-5 items-center w-full px-4 justify-between bg-[#002867]/[.9] z-40 shadow-lg"
+              ? "flex relative py-3 items-center w-full px-4 justify-between bg-[#002867]/[.9] z-40 shadow-lg"
               : "flex fixed flex-col h-screen items-center w-screen px-4 justify-around bg-[#002867] z-40"
           }
         >

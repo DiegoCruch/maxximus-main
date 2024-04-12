@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="flex items-center justify-center w-full bg-[#0A182E] ">
       <footer className="w-full text-gray-700 bg-[#0A182E] body-font">
-        <div className="container flex flex-col flex-wrap px-5 py-8 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
+        <div className="container flex flex-col flex-wrap px-5 py-4 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
         <div className="flex justify-center items-center mb-4 sm:mb-0 sm:ml-8">
           <img src={maxximu} alt="Maxximum Logo" className="h-20  sm:h-32 w-auto mx-auto" />
         </div>
@@ -48,7 +48,7 @@ const Footer = () => {
 
 
 
-            <div className="w-full px-4 lg:w-1/4 md:w-1/2 mt-24 sm:-mr-16"> {/* Agregado margen superior */}
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2 mt-24 lg:-mr-4 "> {/* Agregado margen superior */}
               <div className="flex justify-between mb-4">
                 <a href="#" className="text-white hover:underline">
                   Terms of Services
