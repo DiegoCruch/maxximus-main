@@ -1,3 +1,5 @@
-.slidercontainer {
-    height: calc(89vh - 20px); /* Subtract any additional space or padding if needed */
+@media (max-width: 640px) {
+    .slidercontainer {
+        height: calc(100vh - 20px); /* Adjust height for smaller screens */
+    }
 }

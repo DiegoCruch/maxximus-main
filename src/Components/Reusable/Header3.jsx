@@ -23,11 +23,13 @@ const Header3 = ({ img, Titulo, Subtitulo, Descripcion, Buton }) => {
           <p className="mt-4 max-w-lg sm:text-xl/relaxed text-left">
             {Descripcion}
           </p>
-          <img
-                        className="absolute z-10 right-80 -mr-[4rem] mt-[11.5rem] invisible md:visible "
-                        src={item}
-                        alt="Property"
-                        />
+          <div className="flex flex-col md:flex-row justify-center items-center">
+            <img
+              className="absolute z-10 bottom-0 left-1/2 transform -translate-x-1/2 invisible md:visible"
+              src={item}
+              alt="Property"
+            />
+          </div>
           {Buton ?? (
             <div className="mt-8 flex flex-wrap gap-4 lg:items-center text-center">
               <a

@@ -1,0 +1,10 @@
+.backgroundopacity {
+  background-image: url("../Img/HeaderFindHome.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}

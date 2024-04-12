@@ -6,7 +6,7 @@ import LikeBotton from "../Assets/Img/likebotton.png"
 
 const FindHomeController = ({ arrayCard }) => {
   return (
-    <div className="container mx-auto bg-[#002867] flex flex-col justify-center items-center">
+    <div className=" mx-auto bg-[#002867] flex flex-col justify-center items-center">
       <h2 className="text-4xl font-bold text-center text-white py-20 mx-1">
         Explore Our Communities
       </h2>
