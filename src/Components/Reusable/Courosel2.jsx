@@ -2,22 +2,23 @@ import React from "react";
 
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import Corousel1 from "../../Assets/Img/Corousel1.png";
-import Corousel2 from "../../Assets/Img/Corousel2.png";
-import Corousel3 from "../../Assets/Img/Corousel3.png";
-import Corousel4 from "../../Assets/Img/Corouse4.png";   
+import Corousel1 from "../../Assets/Img/Carousel/CR3.png";
+import Corousel2 from "../../Assets/Img/Carousel/CR2.png";
+import Corousel3 from "../../Assets/Img/Carousel/CR1.png";
+import Corousel4 from "../../Assets/Img/Carousel/CR4.png";
+import EventsT from "../../Assets/Img/Titles/EventsT.png"; 
 
 const Courosel2 = () => {
     return (
-        <div className=" bg-white">
+        <div className=" bg-[#E6E6E6] mt-32">
         <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
             {/* Carousel for desktop and large size devices */}
-            <CarouselProvider className="lg:block hidden ml-32 " naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={3} visibleSlides={2} step={1} infinite={true}>
+            <CarouselProvider className="lg:block hidden lg:ml-28" naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={3} visibleSlides={2} step={1} infinite={true}>
                 <div className="w-full relative flex items-center justify-center">
                 <ButtonBack
                         role="button"
                         aria-label="slide backward"
-                        className="absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer p-6"
+                        className="absolute z-20 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer p-6"
                         id="prev"
                         style={{ backgroundColor: 'white', borderRadius: '50%' }}
                     >
@@ -30,7 +31,7 @@ const Courosel2 = () => {
                             <div id="slider" className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
                                 <Slide index={0}>
                                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src={Corousel1} alt="black chair and white table" className="object-cover object-center w-full" />
+                                        <img src={Corousel4} alt="black chair and white table" className="object-cover object-center w-full" />
                                         <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                             <div className="flex h-full items-end pb-6">
                                             </div>
@@ -39,7 +40,7 @@ const Courosel2 = () => {
                                 </Slide>
                                 <Slide index={1}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src={Corousel2} alt="sitting area" className="object-cover object-center w-full" />
+                                            <img src={Corousel3} alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute inset-0 flex flex-col justify-center items-center p-6">
                                                 <h1 className="lg:text-xl leading-8  text-white font-bold">Real State 24</h1>
                                                 <h3 className="text-white font-light">Event for real estate</h3>
@@ -56,7 +57,7 @@ const Courosel2 = () => {
                                     </Slide>
                                 <Slide index={2}>
                                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src={Corousel3} alt="sitting area" className="object-cover object-center w-full" />
+                                        <img src={Corousel1} alt="sitting area" className="object-cover object-center w-full" />
                                         <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                             <div className="flex h-full items-end pb-6">
                                             </div>
@@ -65,7 +66,7 @@ const Courosel2 = () => {
                                 </Slide>
                                 <Slide index={3}>
                                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src={Corousel1} alt="sitting area" className="object-cover object-center w-full" />
+                                        <img src={Corousel2} alt="sitting area" className="object-cover object-center w-full" />
                                         <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                             <div className="flex h-full items-end pb-6">
                                             </div>
@@ -75,7 +76,7 @@ const Courosel2 = () => {
 
                                 <Slide index={4}>
                                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src={Corousel1} alt="sitting area" className="object-cover object-center w-full" />
+                                        <img src={Corousel4} alt="sitting area" className="object-cover object-center w-full" />
                                         <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                             <div className="flex h-full items-end pb-6">
                                             </div>
@@ -88,7 +89,7 @@ const Courosel2 = () => {
                     <ButtonNext
                         role="button"
                         aria-label="slide forward"
-                        className="absolute z-30 right-0 mr-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 p-6 rounded-full"
+                        className="absolute right-0 mr-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 p-6 rounded-full"
                         id="next"
                         style={{ backgroundColor: 'white',  borderRadius: '50%' }}
                     >

@@ -4,14 +4,14 @@ import Ball from "../../Assets/Img/bolac.png";
 
 const Header2 = () => {
     return (
-        <section className="bg-white py-12 h-[50svh]">
+        <section className="bg-[#E6E6E6] py-12 h-[75svh]">
                 <img
                   className="absolute z-10 left-0 -ml-44 -mt-32  invisible md:visible "
                   src={Ring2}
                   alt="Property"
                 />
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8 lg:mt-32">ATTEND ANY OF OUR TRAINING CLASSES, 
+          <h2 className="text-3xl font-bold mb-8 lg:mt-52">ATTEND ANY OF OUR TRAINING CLASSES, 
           <br />
             WORKSHOPS, AND EVENTS!</h2>
             <button
@@ -22,7 +22,7 @@ const Header2 = () => {
 
         </div>
         <img
-                  className="absolute z-10 right-0  -mt-12 invisible md:visible "
+                  className="absolute z-10 right-0  -mt-16 invisible md:visible "
                   src={Ball}
                   alt="Property"
                 />

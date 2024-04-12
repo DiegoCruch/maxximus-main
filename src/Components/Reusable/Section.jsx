@@ -47,7 +47,7 @@ import HereT from "../../Assets/Img/Titles/HereiswhatTB.png";
             )}
           </div>
 
-          <div className="mt-8 lg:mt-0 lg:ml-auto">
+          <div className="mt-8 lg:mt-12 lg:ml-auto">
             <img
               src={img}
               className={styles.imageShape}

@@ -25,7 +25,7 @@ const Carousel = () => {
             </div>
         <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
             {/* Carousel for desktop and large size devices */}
-            <CarouselProvider className="lg:block hidden ml-28" naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={3} visibleSlides={2} step={1} infinite={true}>
+            <CarouselProvider className="lg:block hidden lg:ml-28" naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={3} visibleSlides={2} step={1} infinite={true}>
                 <div className="w-full relative flex items-center justify-center">
                 <ButtonBack
                         role="button"

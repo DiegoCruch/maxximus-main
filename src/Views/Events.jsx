@@ -12,7 +12,7 @@ import Eventos from "../Assets/Img/Titles/Events.png"
 
 const Events = () => {
   return (
-    <>
+    <div className="bg-[#E6E6E6]">
       <Header
         img={"bg-[url(./Assets/Img/EventsH.png)]"}
         Titulo={Eventos}
@@ -26,7 +26,7 @@ const Events = () => {
       <Carousel2 />
       <Header2 />
       <Footer />
-    </>
+    </div>
   );
 };
 export default Events;

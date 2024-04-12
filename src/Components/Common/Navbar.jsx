@@ -114,7 +114,7 @@ const NavBar = () => {
             <>
               <div className="flex w-1/7 text-center">
                 <Link
-                  to="/realtor"
+                  to="/find-realtor"
                   className="text-black rounded-4xl bg-Maxximum-Blanco rounded-xl py-3 px-12 font-bold lg:mr-32 hover:bg-[#0A182E] hover:text-white "
                 >
                   JOIN OUR TEAM
