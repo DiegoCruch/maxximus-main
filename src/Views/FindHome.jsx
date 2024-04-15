@@ -19,16 +19,16 @@ const FindHome = () => {
   return (
     <>
       <div className=" relative  ">
-      <section className="bg-[url(./Assets/Img/HeaderFindHome.png)] h-screen bg-cover  flex flex-col items-center justify-center bg-black ">
+      <section className="bg-[url(./Assets/Img/banner-7.png)] h-screen bg-cover  flex flex-col items-center justify-center bg-black ">
     <div className="absolute bg-black opacity-5 top-0 left-0 w-full h-full "></div>  
     <div className="text-center  mb-8">
-      <h1 className="text-4xl text-white font-bold">Find a Home</h1>
+      <h1 className="text-4xl text-white font-bold"></h1>
     </div>
           <div className="w-full text-white relative ">
             <form className="flex flex-col sm:flex-row items-center justify-center ">
               <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered w-56 max-w-sm pl-4 py-4 sm:py-9 rounded-md text-center focus:outline-none mb-4 sm:mb-0 sm:rounded-s-4xl border-r-2 sm:border-white pr-4">
-                <img src={home} className="text-gray-400 ml-12 w-4 h-4" />
-                <select className="outline-none select select-bordered w-5/6 max-w-sm  rounded-md text-center focus:outline-none bg-transparent opacity-65">
+                <img src={home} className="text-white ml-12 w-4 h-4" />
+                <select className="outline-none select select-bordered w-5/6 max-w-sm text-white  rounded-md text-center focus:outline-none bg-transparent opacity-65">
                   <option disabled selected>
                     Type of house
                   </option>

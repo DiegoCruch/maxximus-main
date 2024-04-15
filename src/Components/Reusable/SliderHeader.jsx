@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Header1 from '../../Assets/Img/read.png';
-import Header2 from '../../Assets/Img/lady.png';
-import Header3 from '../../Assets/Img/woman.png';
+import Header1 from '../../Assets/Img/Carousel/slider1.png';
+import Header2 from '../../Assets/Img/Carousel/slider2.png';
+import Header3 from '../../Assets/Img/Carousel/slider3.png';
 import item from "../../Assets/Img/item.png"
 
 const Sliderheader = () => {
