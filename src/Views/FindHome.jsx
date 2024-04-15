@@ -60,6 +60,11 @@ const FindHome = () => {
               </div>
             </form>
           </div>
+          <img
+              className="absolute z-10 bottom-0 left-1/2 transform -translate-x-1/2 invisible md:visible"
+              src={item}
+              alt="Property"
+            />
           
         </section>
         <img
