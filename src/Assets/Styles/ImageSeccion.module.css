@@ -1,26 +1,24 @@
 .imageShape{
-    border-top-left-radius: 20%;
-    border-bottom-left-radius: 60%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 60%;
 }
 .imageShape {
   border-top-left-radius: 20%;
   border-bottom-left-radius: 60%;
-  width: 100%; /* w-full */
   object-fit: cover; /* object-cover */
   margin-left: auto; /* ml-auto */
 }
 
 @media (min-width: 768px) { /* Adjust for md breakpoint if needed */
   .imageShape {
-    width: auto; /* lg:w-auto */
     max-width: 48rem; /* lg:max-w-4xl */
   }
 }
-  
-  .imageShape {
-    object-fit: cover; /* object-cover */
-  }
-  
-  .imageShape {
-    margin-left: auto; /* ml-auto */
+
+.imageShape {
+  object-fit: cover; /* object-cover */
+}
+
+.imageShape {
+  margin-left: auto; /* ml-auto */
   }

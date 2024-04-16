@@ -19,10 +19,10 @@ const FindHome = () => {
   return (
     <>
       <div className=" relative  ">
-      <section className="bg-[url(./Assets/Img/banner-7.png)] h-screen bg-cover  flex flex-col items-center justify-center bg-black ">
+      <section className="bg-[url(./Assets/Img/banner-9.png)] h-screen bg-cover  flex flex-col items-center justify-center bg-black ">
     <div className="absolute bg-black opacity-5 top-0 left-0 w-full h-full "></div>  
-    <div className="text-center  mb-8">
-      <h1 className="text-4xl text-white font-bold"></h1>
+    <div className="text-center  mb-32">
+      <h1 className="text-white font-Poppins text-5xl">Find a Home</h1>
     </div>
           <div className="w-full text-white relative ">
             <form className="flex flex-col sm:flex-row items-center justify-center ">

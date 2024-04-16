@@ -27,18 +27,18 @@ const Section = ({ Titulo, Blanco, Descripcion, Buton, img }) => {
         style={{ height: secondLineTop }}
       />
       <div className="absolute inset-0 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
-      <div className="flex flex-col sm:flex-row items-center justify-center sm:items-start max-h-screen overflow-y-auto">
+      <div className="flex flex-wrap sm:flex-row items-center justify-center sm:items-start max-h-screen overflow-y-auto">
         <div
           className={
             Blanco
-              ? "max-w-xl text-center sm:text-left rtl:sm:text-right text-black sm:mx-auto sm:my-6 lg:mx-auto ml-7 lg:ml-12"
+              ? "max-w-xl text-center md:text-left sm:text-left rtl:sm:text-right text-black sm:mx-auto sm:my-6 lg:mx-auto ml-7 lg:ml-12"
               : "max-w-xl text-center sm:text-left rtl:sm:text-right text-white sm:mx-auto sm:my-6 pl-4 md:ml-7 lg:ml-12 "
           }
         >
           <img src={Titulo} className="mt-12 sm:mt-12" alt="Section Image" />
           <p className="max-w-lg sm:text-xl/relaxed text-start">{Descripcion}</p>
           {Buton && (
-            <div className="mt-8 flex flex-wrap gap-4 justify-center lg:mr-96 sm:justify-center sm:mt-4">
+            <div className="mt-8 flex flex-wrap gap-4 justify-center lg:mr-96 md:justify-center sm:justify-center sm:mt-4">
               <a href="#" className="underline">
                 Learn More
               </a>
@@ -57,7 +57,7 @@ const Section = ({ Titulo, Blanco, Descripcion, Buton, img }) => {
         </div>
       </div>
       <img
-        className="absolute z-10 left-0 -ml-36 -mb-72 invisible md:visible"
+        className="absolute z-10 left-0 -ml-36 -mb-72 lg:visible md:invisible"
         src={Ring2}
         alt="Property"
       />
