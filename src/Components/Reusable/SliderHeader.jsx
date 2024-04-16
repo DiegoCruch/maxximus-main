@@ -42,7 +42,7 @@ const Sliderheader = () => {
                     </div>
                     <div className="flex flex-col md:flex-row justify-center items-center">
                     <img
-                        className="absolute z-10 lg:h-72 bottom-0 mr-auto ml-auto md:ml-0 md:mr-0 visible  sm:invisible md:invisible lg:invisible"
+                        className="absolute z-10 lg:h-72 bottom-0 mr-auto ml-auto md:ml-0 md:mr-0 visible  "
                         src={item}
                         alt="Property"
                     />
