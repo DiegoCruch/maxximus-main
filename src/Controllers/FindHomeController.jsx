@@ -6,13 +6,13 @@ import LikeBotton from "../Assets/Img/likebotton.png"
 
 const FindHomeController = ({ arrayCard }) => {
   return (
-    <div className=" mx-auto bg-[#002867] flex flex-col justify-center items-center ">
-      <h2 className="text-4xl font-bold text-center text-white py-20 mx-1">
+    <div className=" mx-auto bg-[#002867] flex flex-col justify-center items-center">
+      <h2 className="text-4xl font-bold text-center text-white py-8 mx-1 lg:mt-12">
         Explore Our Communities
       </h2>
-      <div className="flex flex-col lg:flex-row items-start justify-center py-16 sm:mx-auto w-full">
+      <div className="flex flex-col lg:flex-row items-start justify-center  sm:mx-auto w-full">
         {/* Cards a la izquierda */}
-        <div className="max-w-8xl lg:w-1/2 xl:w-1/7 flex flex-col items-center justify-center mx-auto lg:mx-8">
+        <div className="max-w-8xl lg:w-1/2 xl:w-1/7 flex flex-col items-center justify-center mx-auto lg:mx-8 lg:mb-52">
         {arrayCard.map((item, index) => (
           <div key={index} className="rounded overflow-hidden shadow-lg bg-white mt-10 border-8 border-white grid grid-cols-1 lg:grid-cols-2 " style={{ borderRadius: "5px" }}>
           {/* Image */}
@@ -22,7 +22,7 @@ const FindHomeController = ({ arrayCard }) => {
             alt="Property"
           />
           {/* Content */}
-          <div className="col-span-1 lg:col-span-1 px-6 py-4 flex flex-col">
+          <div className="col-span-1 lg:col-span-1 px-6 py-4 flex flex-col ">
             <div className=" text-3xl font-semibold mb-2 text-black flex lg:flex items-center">
               Shady Canyon
               <img

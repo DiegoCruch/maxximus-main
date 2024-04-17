@@ -9,16 +9,16 @@ const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${Credential
 
 const Map = (props) => {
     return (
-        <div className="space-y-4 bg-[#002867] min-h-screen flex flex-col">
-            <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 mt-52">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-white text-center sm:text-4xl md:mx-auto">
+        <div className="space-y-4 bg-[#002867] h-full flex flex-col mb-16">
+            <div className="max-w-xl  md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 py-20 ">
+            <h2 className="max-w-lg  font-sans text-3xl font-bold leading-none tracking-tight text-white text-center sm:text-4xl md:mx-auto">
                 <span className="relative inline-block">
                     <svg viewBox="0 0 52 24" fill="currentColor" className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"></svg>
-                    <span className="relative">Join the Family</span>
+                    <span className="relative font-semibold text-4xl">Join the Family</span>
                 </span>
             </h2>
             </div>
-            <div className="flex flex-col md:flex-row  justify-center mx-auto w-full max-w-4lg mt-8 space-x-4 sm:space-y-8">
+            <div className="flex flex-col md:flex-row  justify-center mx-auto w-full max-w-4lg  space-x-4 sm:space-y-8">
             <div class="flex flex-col flex-grow overflow-hidden bg-[#FFFFFF] rounded-4xl shadow-lg mt-8 mx-4 max-w-sm">
             <img
                   className="h-68 w-68 absolute ml-12 -mt-16"
