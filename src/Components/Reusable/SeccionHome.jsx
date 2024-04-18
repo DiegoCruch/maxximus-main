@@ -28,7 +28,7 @@ const SeccionHome = ({ Titulo, Blanco, Descripcion, Buton, img, sphere1, sphere2
       "max-w-3xl pl-0 md:pl-52 text-black sm:mx-auto sm:my-6" : 
       "max-w-3xl pl-0 md:pl-52 text-white sm:mx-auto sm:my-6"}>
         <img src={Titulo}  alt="Section Image"/>
-        <p className={`mt-12 ${azul ? 'sm:text-2xl' : ''} sm:text-lg max-w-lg font-bold`}>{Descripcion}</p>
+        <p className={`mt-12 ${azul ? 'sm:text-2xl' : ''} sm:text-lg max-w-lg font-Poppins`}>{Descripcion}</p>
         {Buton && (
           <div className="mt-8 flex flex-wrap gap-4 justify-center sm:justify-start">
             <a href="our-history" className="underline">
