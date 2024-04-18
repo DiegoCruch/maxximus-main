@@ -26,7 +26,7 @@ const FindHome = () => {
     </div>
           <div className="w-full text-white relative ">
             <form className="flex flex-col sm:flex-row items-center justify-center ">
-              <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered w-56 max-w-sm pl-4 py-4 sm:py-9 rounded-md text-center focus:outline-none mb-4 sm:mb-0 sm:rounded-s-4xl border-r-2 sm:border-white pr-4">
+              <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered w-60 max-w-sm pl-4 py-4 sm:py-9 rounded-md text-center focus:outline-none mb-4 sm:mb-0 sm:rounded-s-4xl border-r-2 sm:border-white pr-4">
                 <img src={home} className="text-white ml-12 w-4 h-4" />
                 <select className="outline-none select select-bordered w-5/6 max-w-sm text-white  rounded-md text-center focus:outline-none bg-transparent opacity-65">
                   <option disabled selected>
@@ -36,7 +36,7 @@ const FindHome = () => {
                   <option>Greedo</option>
                 </select>
               </div>
-              <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered w-48 max-w-sm pl-8 py-4 sm:py-9 rounded-md text-center focus:outline-none mb-4 sm:mb-0 border-r-2 sm:border-white pr-10">
+              <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered w-52 max-w-sm pl-8 py-4 sm:py-9 rounded-md text-center focus:outline-none mb-4 sm:mb-0 border-r-2 sm:border-white pr-10">
                 <div className="flex">  
                 <img src={range} className="text-gray-400 ml-8 w-4 h-4 mt-1" />  
                 <select className="outline-none select select-bordered w-full max-w-sm flex-grow rounded-md text-center focus:outline-none bg-transparent opacity-65">
@@ -54,14 +54,14 @@ const FindHome = () => {
                 <img src={addres} className="text-gray-400 ml-8 w-4 h-4 mr-4" /> 
                 <input type="search" name="search" placeholder="City, Neighborhood, ZIP, Address" class="bg-[#14253E] w-full focus:outline-none"/>
                 </div>
-                <button type="submit" class="absolute right-0 top-0 px-16 py-4 sm:py-9 rounded-4xl bg-[#0A182E] text-white" >
+                <button type="submit" class="absolute font-Poppins text-md right-0 top-0 px-16 py-4 sm:py-9 rounded-4xl bg-[#0A182E] text-white" >
                   Search
                 </button>
               </div>
             </form>
           </div>
           <img
-              className="absolute z-10 bottom-0 left-1/2 transform -translate-x-1/2 invisible md:visible"
+              className="absolute z-10 bottom-0 lg:h-[30vh] lg:w-[110vh] left-1/2 transform -translate-x-1/2 invisible md:visible"
               src={item}
               alt="Property"
             />

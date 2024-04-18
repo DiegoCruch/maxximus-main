@@ -130,7 +130,7 @@ const NavBar = () => {
             to="/our-history"
             className="text-2xl text-[#0A182E] font-bold ml-7 "
           >
-            Our STORY
+            OUR STORY
           </Link>
         </div>
         <div className="flex">

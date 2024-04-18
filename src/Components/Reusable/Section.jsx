@@ -18,7 +18,7 @@ const Section = ({ Titulo, Blanco, Descripcion, Buton, img }) => {
       className={
         Blanco
           ? "flex flex-col items-center justify-center relative bg-white bg-cover bg-center h-screen"
-          : "flex flex-col justify-center relative bg-[#002867] bg-cover bg-center h-screen"
+          : "flex flex-col justify-center relative bg-[#002867] bg-cover bg-center h-full"
       }
     >
       {/* White line on x-axis to the left */}
@@ -47,7 +47,7 @@ const Section = ({ Titulo, Blanco, Descripcion, Buton, img }) => {
           )}
         </div>
 
-        <div className="mt-8 lg:mt-12 lg:ml-auto">
+        <div className="mt-8 lg:mt-16 lg:ml-auto lg:h-full">
           <img src={img} className={styles.imageShape} alt="Section Image" />
           <img
             className="absolute z-10 right-80 mr-[17rem] -mt-[23rem] invisible md:visible"
@@ -56,13 +56,13 @@ const Section = ({ Titulo, Blanco, Descripcion, Buton, img }) => {
           />
         </div>
       </div>
-      <img
-        className="absolute z-10 left-0 -ml-36 -mb-72 lg:visible md:invisible"
-        src={Ring2}
-        alt="Property"
-      />
+<img
+    class="hidden md:block absolute z-10 left-0 -ml-36 -mb-72"
+    src={Ring2}
+    alt="Property"
+/>
       {/* Second white line below the sections */}
-      <div ref={secondLineRef} className="w-full h-px bg-[#F2F2F3] mt-28 hidden sm:block md:block" />
+      <div ref={secondLineRef} className="w-full  h-px bg-[#F2F2F3] mt-36 hidden sm:block md:block" />
 
       <div className="py-24 justify-center border-b-2 border-y-white">
         <img className="mx-auto my-auto" src={HereT} alt="Property" />
