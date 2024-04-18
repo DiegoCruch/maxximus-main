@@ -6,10 +6,10 @@ import maxximum from "../../Assets/Img/maxximum.png";
 
 const NavBar = () => {
   const links = [
-    { link: "", text: "Home", id: 1 },
-    { link: "our-history", text: "About Us", id: 2 },
-    { link: "find-home", text: "Find a Home", id: 3 },
-    { link: "events", text: "Events", id: 4 },
+    { link: "", text: "HOME", id: 1 },
+    { link: "our-history", text: "ABOUT US", id: 2 },
+    { link: "find-home", text: "FIND A HOME", id: 3 },
+    { link: "events", text: "EVENTS", id: 4 },
   ];
 
   
