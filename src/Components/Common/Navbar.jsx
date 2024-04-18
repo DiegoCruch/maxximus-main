@@ -144,7 +144,6 @@ const NavBar = () => {
       </div> : null}
       </div>
     </>
-
   );
 };
 
