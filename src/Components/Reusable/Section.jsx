@@ -39,7 +39,7 @@ const Section = ({ Titulo, Blanco, Descripcion, Buton, img }) => {
           <p className="max-w-lg sm:text-xl/relaxed text-start">{Descripcion}</p>
           {Buton && (
             <div className="mt-8 flex flex-wrap gap-4 justify-center lg:mr-96 md:justify-center sm:justify-center sm:mt-4">
-              <a href="#" className="underline">
+              <a href="/our-history" className="underline">
                 Learn More
               </a>
               <span className=""> &gt;</span>

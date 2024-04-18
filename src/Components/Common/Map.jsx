@@ -20,19 +20,13 @@ const Map = (props) => {
             </div>
             <div className="flex flex-col md:flex-row  justify-center mx-auto w-full max-w-4lg  space-x-4 sm:space-y-8">
             <div class="flex flex-col flex-grow overflow-hidden bg-[#FFFFFF] rounded-4xl shadow-lg mt-8 mx-4 max-w-sm">
-            <img
-                  className="h-68 w-68 absolute ml-12 -mt-16"
+			<div class="flex flex-col items-center p-10 bg-[#0A182E]">
+				<div class="flex items-center py-16">
+                <img
+                  className="h-68 w-68 absolute -ml-32 -mt-16"
                   src={RectanguleCard}
                   alt="Property"
                 />
-			<div class="flex flex-col items-center p-10 bg-[#0A182E]">
-
-				<div class="flex items-center">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
 				</div>
 			</div>
 			<div class="p-10">
@@ -58,19 +52,14 @@ const Map = (props) => {
 			</div>
 		</div>	
         <div class="flex flex-col flex-grow overflow-hidden bg-[#FFFFFF] rounded-4xl shadow-lg mt-8 mx-4 max-w-sm">
-            <img
-                  className="h-68 w-68 absolute ml-12 -mt-16"
+			<div class="flex flex-col items-center p-10 bg-[#0A182E]">
+
+				<div class="flex items-center py-16">
+                <img
+                  className="h-68 w-68 absolute -ml-32 -mt-16"
                   src={RectanguleCard2}
                   alt="Property"
                 />
-			<div class="flex flex-col items-center p-10 bg-[#0A182E]">
-
-				<div class="flex items-center">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
 				</div>
 			</div>
 			<div class="p-10">
@@ -103,19 +92,13 @@ const Map = (props) => {
 			</div>
 		</div>
         <div class="flex flex-col flex-grow overflow-hidden bg-[#FFFFFF] rounded-4xl shadow-lg mt-8 mx-4 max-w-sm">
-            <img
-                  className="h-68 w-68 absolute ml-12 -mt-16"
+			<div class="flex flex-col items-center p-10 bg-[#0A182E]">
+				<div class="flex items-center py-16">
+                <img
+                  className="h-68 w-68 absolute -ml-32  -mt-16"
                   src={RectanguleCard3}
                   alt="Property"
                 />
-			<div class="flex flex-col items-center p-10 bg-[#0A182E]">
-
-				<div class="flex items-center">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
 				</div>
 			</div>
 			<div class="p-10">

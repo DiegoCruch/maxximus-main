@@ -8,7 +8,7 @@ const Header3 = ({ img, Titulo, Subtitulo, Descripcion, Buton }) => {
   const sectionImage = `relative bg-cover bg-center bg-no-repeat ${img}`;
   return (
     <section className={sectionImage}>
-      <div className="absolute inset-0 bg-black opacity-35"></div>
+      <div className="absolute inset-0 bg-black opacity-50"></div>
 
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         <div className="text-white max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
@@ -25,7 +25,7 @@ const Header3 = ({ img, Titulo, Subtitulo, Descripcion, Buton }) => {
           </p>
           <div className="flex flex-col md:flex-row justify-center items-center">
             <img
-              className="absolute z-10 bottom-0 left-1/2 transform -translate-x-1/2 invisible md:visible"
+              className="absolute z-10 bottom-0 lg:h-[40vh] left-1/2 transform -translate-x-1/2 invisible md:visible"
               src={item}
               alt="Property"
             />

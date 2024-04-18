@@ -15,19 +15,19 @@ const SectionForm = ({ img, Titulo, SubTitulo, Descripcion }) => {
         <div className="lg:ml-auto">
           <form className="p-8 rounded-lg max-w-md mx-aut lg:mt-36">
             <div className="mb-4">
-              <input
-                type="text"
-                id="name"
-                placeholder="Name"
-                className="appearance-none border rounded-4xl w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
-              />
-            </div>
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              className="appearance-none border rounded-4xl w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline opacity-70"
+            />
+           </div>
             <div className="mb-4">
               <input
                 type="email"
                 id="email"
                 placeholder="Email"
-                className="appearance-none border rounded-4xl w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+                className="appearance-none border rounded-4xl w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline opacity-70"
               />
             </div>
             <div className="mb-4">
@@ -35,7 +35,7 @@ const SectionForm = ({ img, Titulo, SubTitulo, Descripcion }) => {
                 type="tel"
                 id="phone"
                 placeholder="Phone Number"
-                className="appearance-none border rounded-4xl w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+                className="appearance-none border rounded-4xl w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline opacity-70"
               />
             </div>
             <div className="mb-4">
@@ -43,7 +43,7 @@ const SectionForm = ({ img, Titulo, SubTitulo, Descripcion }) => {
                 type="text"
                 id="city"
                 placeholder="What city do you live?"
-                className="appearance-none border rounded-4xl w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+                className="appearance-none border rounded-4xl w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline opacity-70"
               />
             </div>
             <div className="mb-6">
@@ -52,14 +52,14 @@ const SectionForm = ({ img, Titulo, SubTitulo, Descripcion }) => {
               </label>
               <select
                 id="license"
-                className="block appearance-none w-full rounded-4xl bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded-full leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="block appearance-none w-full rounded-4xl bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded-full leading-tight focus:outline-none focus:bg-white focus:border-gray-500 opacity-70"
               >
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
               </select>
             </div>
             <div className="flex items-center justify-center">
-            <button className="block rounded-4xl bg-white px-32 py-3 text-sm font-medium text-black shadow focus:outline-none focus:ring sm:w-auto">
+            <button className="block rounded-4xl bg-white px-32 py-4 text-xl font-semibold text-[#0A182E] shadow focus:outline-none focus:ring sm:w-auto">
               Join Us Now
             </button>
           </div>

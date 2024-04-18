@@ -20,7 +20,7 @@ const Cards = () => {
 </h2>
 
             </div>
-            <div className="grid grid-cols-4  sm:grid-cols-3 gap-8 p-2 0">
+            <div className="grid grid-cols-1 sm:grid-cols-3  gap-8 p-2 0 xs:grid-cols-1">
             <div className=" bg-white overflow-hidden relative rounded-lg ml-" style={{ borderRadius: "5px" }}>
                     <div className="flex items-center">
                         <div className="w-36 sm:w-52 flex items-center justify-center">
@@ -34,7 +34,7 @@ const Cards = () => {
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white px-1 py-0"style={{ borderRadius: "5px" }} >Max Sandoval-Broker</p>
+                        <p className="text-center bg-[#0A182E] text-white px-3 py-0"style={{ borderRadius: "5px" }} >Max Sandoval-Broker</p>
                     </div>
                 </div>
 
@@ -51,7 +51,7 @@ const Cards = () => {
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white px-1 py-0"style={{ borderRadius: "5px" }} >Mika Lamons - Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white px-3 py-0"style={{ borderRadius: "5px" }} >Mika Lamons - Agent</p>
                     </div>
                 </div>
                 <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
@@ -67,7 +67,7 @@ const Cards = () => {
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white px-1 py-0"style={{ borderRadius: "5px" }} >Hillary Brown - Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white px-3 py-0"style={{ borderRadius: "5px" }} >Hillary Brown - Agent</p>
                     </div>
                 </div>
                 <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
@@ -84,7 +84,7 @@ const Cards = () => {
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white px-1 py-0"style={{ borderRadius: "5px" }} >Desiree Sukhov - Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white px-3 py-0"style={{ borderRadius: "5px" }} >Desiree Sukhov-Agent</p>
                     </div>
                 </div>
                 <div className="bg-white overflow-hidden relative rounded-lg" style={{ borderRadius: "5px" }}>
@@ -99,7 +99,7 @@ const Cards = () => {
                     </div>
                 </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white w-52 px-1 py-0"style={{ borderRadius: "5px" }} >CourtneyLee Clark - Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white w-52 px-3 py-0"style={{ borderRadius: "5px" }} >CourtneyLee Clark-Agent</p>
                     </div>
                 </div>
                 <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
@@ -115,7 +115,7 @@ const Cards = () => {
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white w-52 px-1 py-0"style={{ borderRadius: "5px" }} >Salvador Montalvo - Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white w-52 px-3 py-0"style={{ borderRadius: "5px" }} >Salvador Montalvo-Agent</p>
                     </div>
                 </div>
                 <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
@@ -147,7 +147,7 @@ const Cards = () => {
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white px-1 py-0"style={{ borderRadius: "5px" }} >Patricia Beltrán - Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white w-52 px-3 py-0"style={{ borderRadius: "5px" }} >Patricia Beltrán - Agent</p>
                     </div>
                 </div>
                 <div className=" bg-white overflow-hidden relative rounded-lg " style={{ borderRadius: "5px" }}>
@@ -163,7 +163,7 @@ const Cards = () => {
                         </div>
                     </div>
                     <div className="absolute top-5 left-48 transform -translate-x-1/2 -translate-y-1/2">
-                        <p className="text-center bg-[#0A182E] text-white w-52 px-1 py-0"style={{ borderRadius: "5px" }} >Salvador Montalvo - Agent</p>
+                        <p className="text-center bg-[#0A182E] text-white w-56 px-3 py-0"style={{ borderRadius: "5px" }} >Salvador Montalvo - Agent</p>
                     </div>
                 </div>
             </div>

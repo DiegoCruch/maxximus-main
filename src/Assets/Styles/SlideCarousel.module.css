@@ -1,0 +1,8 @@
+.hoverslide .slide-content {
+    opacity: 0; /* Inicialmente ocultar la información */
+    transition: opacity 0.3s ease; /* Agregar una transición suave */
+}
+
+.hoverslide:hover .slide-content {
+    opacity: 1; /* Mostrar la información cuando se hace hover en el slide */
+}

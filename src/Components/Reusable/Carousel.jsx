@@ -7,6 +7,7 @@ import Corousel2 from "../../Assets/Img/Carousel/CR2.png";
 import Corousel3 from "../../Assets/Img/Carousel/CR1.png";
 import Corousel4 from "../../Assets/Img/Carousel/CR4.png";
 import EventsT from "../../Assets/Img/Titles/EventsT.png";
+import Stylehover from "../../Assets/Styles/SlideCarousel.module.css"
  
 
 const Carousel = () => {
@@ -50,23 +51,23 @@ const Carousel = () => {
                                         </div>
                                     </div>
                                 </Slide>
-                                <Slide index={1}>
-                                        <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src={Corousel3} alt="sitting area" className="object-cover object-center w-full" />
-                                            <div className="bg-gray-800 bg-opacity-30 absolute inset-0 flex flex-col justify-center items-center p-6">
-                                                <h1 className="lg:text-xl leading-8  text-white font-bold">Real State 24</h1>
-                                                <h3 className="text-white font-light">Event for real estate</h3>
-                                                <h1 className="lg:text-xl leading-4 text-white font-bold">2024</h1>
-                                                <br />
-                                                <a
-                                                    href="#"
-                                                    className="block w-full rounded-4xl bg-white px-12 py-3 text-sm font-medium text-black shadow focus:outline-none focus:rin sm:w-auto"
-                                                >
-                                                    More Info
-                                                </a>
-                                            </div>
+                                <Slide index={1} className={Stylehover.hoverslide}>
+                                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                                        <img src={Corousel3} alt="sitting area" className="object-cover object-center w-full" />
+                                        <div className="bg-gray-800 bg-opacity-30 absolute inset-0 flex flex-col justify-center items-center p-6 slide-content">
+                                            <h1 className="lg:text-3xl leading-8 text-white font-semibold ">Real State 24</h1>
+                                            <h3 className="text-white font-normal lg:text-xs">Event for real estate</h3>
+                                            <h1 className="lg:text-2xl leading-4 text-white font-semibold">2024</h1>
+                                            <br />
+                                            <a
+                                                href="#"
+                                                className="block w-full rounded-4xl bg-white px-12 py-3 text-sm font-medium text-[#0A182E] shadow focus:outline-none focus:rin sm:w-auto"
+                                            >
+                                                More Info
+                                            </a>
                                         </div>
-                                    </Slide>
+                                    </div>
+                                </Slide>
                                 <Slide index={2}>
                                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                         <img src={Corousel1} alt="sitting area" className="object-cover object-center w-full" />

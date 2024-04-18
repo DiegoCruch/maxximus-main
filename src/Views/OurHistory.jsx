@@ -6,6 +6,7 @@ import Section from "../Components/Reusable/Section";
 import Confident from "../Assets/Img/leadership.png";
 import Footer from "../Components/Common/Fotter";
 import SectionHome from "../Components/Reusable/SeccionHome"
+import SectionHome2 from "../Components/Reusable/SeccionHome2"
 import OurHT from "../Assets/Img/Titles/OurHistoryTB.png"
 import Mission from "../Assets/Img/Titles/MissionT.png"
 import Vision from "../Assets/Img/Titles/VisionT.png"
@@ -37,11 +38,12 @@ const OurHistory = () => {
                 SubTitulo={Vision}
                 SubDescripcion={"Empowering the Modern Agent."}
             />
-            <SectionHome
+            <SectionHome2
                 azul={true}
                 Blanco={false}
                 Titulo={LeaderShip}
-                Descripcion={'"Change is here and rather than being afraid of it, it should be embraced"  Technology is constantly shutting and improving. We are always on top of the latest tools.'}
+                Descripcion={'"Change is here and rather than being afraid of it, it should be embraced"'}
+                SubDescripcion={"Technology is constantly shutting and improving. We are always on top of the latest tools."}
                 img={Confident}
                 Buton={false}
                 sphere1={false}

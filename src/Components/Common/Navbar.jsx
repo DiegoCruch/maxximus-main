@@ -94,14 +94,14 @@ const NavBar = () => {
               <div className=" mr-4">
                 {!isMenuOpen ? (
                   <AiOutlineMenu
-                    cursor="pointer"
+                  cursor="default"
                     size={24}
                     color="white"
                     onClick={() => toggleMenu()}
                   />
                 ) : (
                   <AiOutlineClose
-                    cursor="pointer"
+                  cursor="default"
                     size={24}
                     color="white"
                     onClick={() => toggleMenu()}
@@ -130,7 +130,7 @@ const NavBar = () => {
             to="/our-history"
             className="text-2xl text-[#0A182E] font-bold ml-7 "
           >
-            Our History
+            Our STORY
           </Link>
         </div>
         <div className="flex">
@@ -138,7 +138,7 @@ const NavBar = () => {
             to="/find-realtor"
             className="text-2xl text-[#0A182E] font-bold ml-7"
           >
-            Our Team
+            OUR TEAM
           </Link>
         </div>
       </div> : null}
