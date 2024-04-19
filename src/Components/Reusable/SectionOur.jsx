@@ -24,11 +24,6 @@ const SectionOur = ({ BG, Titulo, Descripcion, SubTitulo, SubDescripcion }) => {
               <p className="text-xl">{SubDescripcion}</p> {/* Removed media query for margin */}
             </div>
           </div>
-          <img
-            className="absolute z-10 right-0 -mr-4 -mt-12 invisible md:visible" // Media query for visibility
-            src={Ring}
-            alt="Property"
-          />
         </div>
       </div>
     );

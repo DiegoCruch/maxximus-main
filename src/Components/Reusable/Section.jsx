@@ -49,18 +49,10 @@ const Section = ({ Titulo, Blanco, Descripcion, Buton, img }) => {
 
         <div className="mt-8 lg:mt-16 lg:ml-auto lg:h-full">
           <img src={img} className={styles.imageShape} alt="Section Image" />
-          <img
-            className="absolute z-10 right-80 mr-[17rem] -mt-[23rem] invisible md:visible"
-            src={Ball}
-            alt="Property"
-          />
+
         </div>
       </div>
-<img
-    class="hidden md:block absolute z-10 left-0 -ml-36 -mb-72"
-    src={Ring2}
-    alt="Property"
-/>
+
       {/* Second white line below the sections */}
       <div ref={secondLineRef} className="w-full  h-px bg-[#F2F2F3] mt-36 hidden sm:block md:block" />
 

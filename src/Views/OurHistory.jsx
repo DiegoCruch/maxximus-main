@@ -45,10 +45,6 @@ const OurHistory = () => {
                 Descripcion={'"Change is here and rather than being afraid of it, it should be embraced"'}
                 SubDescripcion={"Technology is constantly shutting and improving. We are always on top of the latest tools."}
                 img={Confident}
-                Buton={false}
-                sphere1={false}
-                sphere2={true}
-            sphere3={true}
            />
            <Footer />
         </>);

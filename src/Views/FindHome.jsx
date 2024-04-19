@@ -67,11 +67,6 @@ const FindHome = () => {
             />
           
         </section>
-        <img
-          className="absolute  z-10 right-0  -mt-44 invisible md:visible "
-          src={Ring}
-          alt="Property"
-        />
       </div>
       <FindHomeController arrayCard={arrayCard} />
 

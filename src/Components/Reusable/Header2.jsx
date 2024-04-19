@@ -5,11 +5,7 @@ import Ball from "../../Assets/Img/bolac.png";
 const Header2 = () => {
     return (
         <section className="bg-[#E6E6E6] py-12 h-[75svh]">
-                <img
-                  className="absolute z-10 left-0 -ml-44 -mt-32  invisible md:visible "
-                  src={Ring2}
-                  alt="Property"
-                />
+
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8 lg:mt-52">ATTEND ANY OF OUR TRAINING CLASSES, 
           <br />
@@ -21,11 +17,6 @@ const Header2 = () => {
             </button>
 
         </div>
-        <img
-                  className="absolute z-10 right-0  -mt-16 invisible md:visible "
-                  src={Ball}
-                  alt="Property"
-                />
       </section>
     );
 }

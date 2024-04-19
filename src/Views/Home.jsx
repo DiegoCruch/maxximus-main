@@ -34,8 +34,6 @@ const Home = () => {
         Descripcion={"Recent years have seen a pivotal shift for salespeople with the surge in online and social media interaction, driven by technology. Embracing this change is positive but demands acquiring new methods and skills. At Maxximum Realty, we excel in adapting to innovative tools and business approaches, ensuring effective execution for success, much like Real Estate Agents in their field."}
         img={Banner}
         Buton={true}
-        sphere1={true}
-        sphere2={false}
         />
       <SectionForm
         
