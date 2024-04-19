@@ -11,7 +11,7 @@ const Header2 = () => {
           <br />
             WORKSHOPS, AND EVENTS!</h2>
             <button
-            className="bg-[#0A182E] rounded-4xl text-white font-bold py-2 px-4 rounded-full"
+            className="bg-[#0A182E] rounded-4xl text-white font-bold py-4 px-6 rounded-full"
             >
             VIEW OUR CALENDER
             </button>
