@@ -23,10 +23,8 @@ const SeccionHome2 = ({ Titulo, Blanco, Descripcion, SubDescripcion, Buton, img,
       <div className="absolute inset-0  sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
       <div className="max-w-screen-xl flex flex-col lg:flex-row lg:items-start">
-      <div className=
-      {Blanco ? 
-      "max-w-3xl pl-0 md:pl-52 text-black sm:mx-auto sm:my-6" : 
-      "max-w-3xl pl-0 md:pl-52 text-white sm:mx-auto sm:my-6"}>
+      <div className={Blanco ? "max-w-3xl px-4 md:pl-52 text-black sm:max-w-none sm:mx-auto sm:my-6" : "max-w-3xl px-4 md:pl-52 text-white sm:max-w-none sm:mx-auto sm:my-6"}>
+
         <img src={Titulo}  alt="Section Image"/>
         <p className={`mt-12 ${azul ? 'sm:text-2xl' : ''} sm:text-2xl max-w-lg font-bold font-Poppins`}>{Descripcion}</p>
         <p className={` ${azul ? 'sm:text-2xl' : ''} sm:text-2xl max-w-lg font-Poppins`}>{SubDescripcion}</p>
@@ -40,33 +38,7 @@ const SeccionHome2 = ({ Titulo, Blanco, Descripcion, SubDescripcion, Buton, img,
         )}
       </div>
 
-      <img
-      className={sphere1 ? "absolute z-10 right-80 mr-[17rem] mt-72 invisible md:visible " : "hidden" }
-      src={Ball}
-      alt="Property"
-      />
-      <img
-      className={sphere2 && !sphere3 ? "absolute z-10 right-80 mr-[12rem] mt-52 invisible md:visible " : "hidden" }
-      src={Ball2}
-      alt="Property"
-      />
-       <img
-      className={sphere3 ? "absolute z-10 right-80 mr-[12rem] mt-52 invisible md:visible " : "hidden" }
-      src={Ball3}
-      alt="Property"
-      />
-
-      <img
-      className={sphere1 ? "absolute z-10 right-0  mt-80 invisible md:visible " : "hidden" }
-      src={Ball2}
-      alt="Property"
-      />
-      <img
-      className={sphere2 ? "absolute z-10 right-0 -mr-0 mt-96 invisible md:visible " : "hidden" }
-      src={Ball}
-      alt="Property"
-      />
-        <div className=" lg:mt-0 lg:ml-52 lg:absolute inset-x-0 right-0 ">
+        <div className=" lg:mt-0 lg:ml-52 lg:absolute inset-x-0 right-0 mt-8 ">
           <img src={img} className={styles.imageShape} alt="Section Image" />
         </div>
       </div>

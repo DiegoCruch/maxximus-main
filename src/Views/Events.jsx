@@ -14,7 +14,7 @@ const Events = () => {
   return (
     <div className="bg-[#E6E6E6]">
       <Header
-        img={"bg-[url(./Assets/Img/EventsH.png)]"}
+        img={"bg-[url(./Assets/Img/bg-events.png)]"}
         Titulo={Eventos}
         Subtitulo={"Grow Your Business With Maxximun"}
         Descripcion={

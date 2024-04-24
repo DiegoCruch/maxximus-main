@@ -20,7 +20,7 @@ const Cards = () => {
 </h2>
 
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3  gap-8 p-2 0 xs:grid-cols-1">
+            <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-1 gap-8 p-2 0 xs:grid-cols-1">
             <div className=" bg-white overflow-hidden relative rounded-lg ml-" style={{ borderRadius: "5px" }}>
                     <div className="flex items-center">
                         <div className="w-36 sm:w-52 flex items-center justify-center">
@@ -89,8 +89,8 @@ const Cards = () => {
                 </div>
                 <div className="bg-white overflow-hidden relative rounded-lg" style={{ borderRadius: "5px" }}>
                 <div className="flex items-center h-full justify-end"> {/* Added h-full for vertical expansion */}
-                <div className="relative h-full w-48 sm:w-64"> {/* Relative container for image */}
-                <img src={AgentCard4} className="h-full object-cover" style={{ top: 0, borderRadius: "5px" }} alt="Imagen de perfil" /> {/* Adjusted image for height */}
+                <div className="relative h-full w-full  sm:w-64"> {/* Relative container for image */}
+                <img src={AgentCard4} className="h-full object-cover " style={{ top: 0, borderRadius: "5px" }} alt="Imagen de perfil" /> {/* Adjusted image for height */}
                 </div>
                     <div className="flex flex-col justify-start p-4 mt-8 pl-4">
                     <p className="text-base mb-1">+1(951) 467-8144</p>

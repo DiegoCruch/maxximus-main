@@ -7,7 +7,7 @@ const Header2 = () => {
         <section className="bg-[#E6E6E6] py-12 h-[75svh]">
 
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8 lg:mt-52">ATTEND ANY OF OUR TRAINING CLASSES, 
+          <h2 className="text-3xl font-bold mb-8 mt-52">ATTEND ANY OF OUR TRAINING CLASSES, 
           <br />
             WORKSHOPS, AND EVENTS!</h2>
             <button

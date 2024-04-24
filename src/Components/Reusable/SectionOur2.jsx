@@ -3,7 +3,7 @@ import React from 'react';
 const SectionOur2 = ({ Titulo, Descripcion, SubTitulo, SubDescripcion }) => {
   return (
     <div className="relative my-0 min-h-screen flex items-center justify-center">
-      <div className="absolute inset-0 bg-[url(./././Assets/Img/banner-5.png)] bg-center bg-cover" style={{ objectFit: 'cover' }} />
+      <div className="absolute inset-0 bg-[url(./././Assets/Img/bg-mission.png)] bg-center bg-cover" style={{ objectFit: 'cover' }} />
       <div className="absolute inset-0 bg-[#08172F] opacity-70" />
       <div className="absolute inset-0 flex items-center justify-center text-center text-white">
         <div className="container mx-auto px-6">

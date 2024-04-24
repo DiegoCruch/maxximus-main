@@ -3,17 +3,17 @@ import React from "react";
 const SectionForm = ({ img, Titulo, SubTitulo, Descripcion }) => {
   return (
 
-<section className="h-auto relative bg-cover bg-[url(./././Assets/Img/bannerform.png)] bg-center bg-custom-large sm:bg-custom-small">
+<section className="h-auto relative bg-cover bg-[url(./././Assets/Img/bg-becomet.png)] bg-center bg-custom-large sm:bg-custom-small">
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative mx-auto max-w-screen-xl lg:flex lg:h-screen lg:items-center">
-      <div className="max-w-xl text-center sm:text-left text-white lg:mr-auto lg:mb-56 ">
+      <div className="max-w-xl mx-auto text-center sm:text-left text-white lg:mr-60 lg:mb-56 ">
       <img src={Titulo} className="lg:mb-20  sm:mt-52" alt="Section Image"/>
         <h3 className="text-lg sm:text-xl md:text-2xl font-bold">{SubTitulo}</h3>
         <p className="mt-4 max-w-lg text-sm sm:text-base md:text-lg lg:text-xl">{Descripcion}</p>
       </div>
 
         <div className="lg:ml-auto">
-          <form className="p-8 rounded-lg max-w-md mx-aut lg:mt-36">
+          <form className="p-8 rounded-lg max-w-md md:mx-auto lg:mt-36">
             <div className="mb-4">
             <input
               type="text"
@@ -59,7 +59,7 @@ const SectionForm = ({ img, Titulo, SubTitulo, Descripcion }) => {
               </select>
             </div>
             <div className="flex items-center justify-center">
-            <button className="block rounded-4xl bg-white px-32 py-4 text-xl font-semibold text-[#0A182E] shadow focus:outline-none focus:ring sm:w-auto">
+            <button className="block rounded-4xl bg-white px-32 lg:px-32 lg:py-3 text-lg py-3 sm:text-lg font-semibold text-[#0A182E] shadow focus:outline-none focus:ring sm:w-auto">
               Join Us Now
             </button>
           </div>

@@ -12,7 +12,9 @@ const NavBar = () => {
     { link: "events", text: "EVENTS", id: 4 },
   ];
 
-  
+  const [textSize, setTextSize] = useState("text-2xl"); // Estado para controlar el tamaño del texto
+
+
   const [active, setActive] = useState(0);
 
   const [hover, setHover] = useState(false);
@@ -84,8 +86,9 @@ const NavBar = () => {
               {isMenuOpen && (
                 <>
                   <Link
-                    to="/realtor"
+                    to="/find-realtor"
                     className="text-xl text-Maxximum-Blanco rounded-4xl bg-white text-black px-9 font-Poppins mb-4 "
+                    onClick={() => toggleMenu()}
                   >
                     Join Our Team
                   </Link>

@@ -51,7 +51,7 @@ const Map = (props) => {
 				</ul>
 			</div>
 		</div>	
-        <div class="flex flex-col flex-grow overflow-hidden bg-[#FFFFFF] rounded-4xl shadow-lg mt-8 mx-4 max-w-sm">
+        <div class="flex flex-col flex-grow overflow-hidden bg-[#FFFFFF] rounded-4xl shadow-lg mt-8 mx-4 max-w-sm ">
 			<div class="flex flex-col items-center p-10 bg-[#0A182E]">
 
 				<div class="flex items-center py-16">

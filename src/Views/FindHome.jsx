@@ -26,9 +26,9 @@ const FindHome = () => {
     </div>
           <div className="w-full text-white relative ">
             <form className="flex flex-col sm:flex-row items-center justify-center ">
-              <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered w-60 max-w-sm pl-4 py-4 sm:py-9 rounded-md text-center focus:outline-none mb-4 sm:mb-0 sm:rounded-s-4xl border-r-2 sm:border-white pr-4">
+              <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered md:w-52 lg:w-60 w-[86vh] max-w-sm pl-4 py-4 sm:py-9 rounded-md text-center focus:outline-none mb-4 sm:mb-0 sm:rounded-s-4xl border-r-2 lg::border-white pr-4">
                 <img src={home} className="text-white ml-12 w-4 h-4" />
-                <select className="outline-none select select-bordered w-5/6 max-w-sm text-white  rounded-md text-center focus:outline-none bg-transparent opacity-65">
+                <select className="outline-none select select-bordered w-5/6 max-w-sm rounded-md text-center focus:outline-none bg-transparent opacity-65">
                   <option disabled selected>
                     Type of house
                   </option>
@@ -36,27 +36,29 @@ const FindHome = () => {
                   <option>Greedo</option>
                 </select>
               </div>
-              <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered w-52 max-w-sm pl-8 py-4 sm:py-9 rounded-md text-center focus:outline-none mb-4 sm:mb-0 border-r-2 sm:border-white pr-10">
-                <div className="flex">  
-                <img src={range} className="text-gray-400 ml-8 w-4 h-4 mt-1" />  
-                <select className="outline-none select select-bordered w-full max-w-sm flex-grow rounded-md text-center focus:outline-none bg-transparent opacity-65">
-                    <option disabled selected>
-                      Range
-                    </option>
-                    <option>Han Solo</option>
-                    <option>Greedo</option>
-                  </select>
-                </div>
+              <div className="bg-[#14253E] opacity-65 rounded-md flex items-center outline-none select select-bordered lg:w-60 md:w-44 w-[86vh] max-w-sm pl-4 py-4 sm:py-9 rounded-md text-center focus:outline-none mb-4 sm:mb-0  border-r-2 sm:border-white pr-4">
+                <img src={range} className="text-white ml-12 w-4 h-4" />
+                <select className="outline-none select select-bordered w-5/6 max-w-sm rounded-md text-center focus:outline-none bg-transparent opacity-65">
+                  <option disabled selected>
+                    Range
+                  </option>
+                  <option>Han Solo</option>
+                  <option>Greedo</option>
+                </select>
               </div>
 
-              <div class="relative w-full max-w-lg flex items-center">
-                <div className="relative w-full max-w-lg flex items-center bg-[#14253E] opacity-65  pl-4 py-4 sm:py-9 rounded-r-4xl focus:outline-none">
+              <div class="relative w-full max-w-xs lg:max-w-lg flex items-center">
+                <div className="relative w-full max-w-lg flex items-center bg-[#14253E] opacity-65  pl-4 py-4 sm:py-9 lg:rounded-r-4xl focus:outline-none">
                 <img src={addres} className="text-gray-400 ml-8 w-4 h-4 mr-4" /> 
                 <input type="search" name="search" placeholder="City, Neighborhood, ZIP, Address" class="bg-[#14253E] w-full focus:outline-none"/>
                 </div>
-                <button type="submit" class="absolute font-Poppins text-md right-0 top-0 px-16 py-4 sm:py-9 rounded-4xl bg-[#0A182E] text-white" >
+                <button type="submit" class="absolute font-Poppins text-md lg:right-0 ml-44 top-0 px-16 py-4 sm:py-9  rounded-4xl bg-[#0A182E] text-white hidden sm:block" >
                   Search
                 </button>
+                <button type="submit" class="absolute font-Poppins text-md top-0 px-16 py-4 sm:py-9 mt-16 ml-20 rounded-4xl bg-[#0A182E] text-white sm:inline md:hidden lg:hidden">
+  Search
+</button>
+
               </div>
             </form>
           </div>

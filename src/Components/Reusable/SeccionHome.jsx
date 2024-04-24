@@ -39,37 +39,12 @@ const SeccionHome = ({ Titulo, Blanco, Descripcion, Buton, img, sphere1, sphere2
         )}
       </div>
 
-      <img
-      className={sphere1 ? "absolute z-10 right-80 mr-[17rem] mt-72 invisible md:visible " : "hidden" }
-      src={Ball}
-      alt="Property"
-      />
-      <img
-      className={sphere2 && !sphere3 ? "absolute z-10 right-80 mr-[12rem] mt-52 invisible md:visible " : "hidden" }
-      src={Ball2}
-      alt="Property"
-      />
-       <img
-      className={sphere3 ? "absolute z-10 right-80 mr-[12rem] mt-52 invisible md:visible " : "hidden" }
-      src={Ball3}
-      alt="Property"
-      />
 
-      <img
-      className={sphere1 ? "absolute z-10 right-0  mt-80 invisible md:visible " : "hidden" }
-      src={Ball2}
-      alt="Property"
-      />
-      <img
-      className={sphere2 ? "absolute z-10 right-0 -mr-0 mt-96 invisible md:visible " : "hidden" }
-      src={Ball}
-      alt="Property"
-      />
-        <div className=" lg:mt-0 lg:ml-52 lg:absolute inset-x-0 right-0 ">
+        <div className=" lg:mt-12 lg:ml-52 lg:absolute inset-x-0 right-0 mt-12 ">
           <img src={img} className={styles.imageShape} alt="Section Image" />
         </div>
       </div>
-    </section>
+    </section> 
   );
 };
 
