@@ -1,9 +1,11 @@
 import React from "react";
+import BgImg from "../../Assets/Img/BecomeBg.png"
 
 const SectionForm = ({ img, Titulo, SubTitulo, Descripcion }) => {
   return (
 
-<section className="h-auto relative bg-cover bg-[url(./././Assets/Img/bg-becomet.png)] bg-center bg-custom-large sm:bg-custom-small">
+<section className="h-auto relative lg:h-[65rem] bg-black bg-cover bg-center bg-custom-large sm:bg-custom-small">
+    <img className="absolute inset-0 w-full h-full object-cover" src={BgImg} alt="Background Image" ></img>
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative mx-auto max-w-screen-xl lg:flex lg:h-screen lg:items-center">
       <div className="max-w-xl mx-auto text-center sm:text-left text-white lg:mr-60 lg:mb-56 ">

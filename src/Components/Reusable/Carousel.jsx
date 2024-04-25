@@ -18,11 +18,11 @@ const Carousel = () => {
             <br/>
             <div className="bg-[#002867] relative flex items-center justify-center">
             {/* Línea izquierda */}
-            <div className="absolute left-32 h-48 bg-white w-px hidden sm:block"></div>
+            <div className="absolute left-32 h-60 bg-white w-px hidden sm:block"></div>
             {/* Título */}
             <img className="mx-auto my-auto" src={EventsT} alt="Property"/>
             {/* Línea derecha */}
-            <div className="absolute right-36 h-48 bg-white w-px hidden sm:block"></div>
+            <div className="absolute right-36 h-60 bg-white w-px hidden sm:block"></div>
             </div>
         <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
             {/* Carousel for desktop and large size devices */}

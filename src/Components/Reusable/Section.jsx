@@ -35,7 +35,7 @@ const Section = ({ Titulo, Blanco, Descripcion, Buton, img }) => {
               : "max-w-xl text-center sm:text-left rtl:sm:text-right text-white sm:mx-auto sm:my-6 pl-4 md:ml-7 lg:ml-12 "
           }
         >
-          <img src={Titulo} className="mt-12 sm:mt-12" alt="Section Image" />
+          <img src={Titulo} className=" sm:mt-12" alt="Section Image" />
           <p className="max-w-lg sm:text-xl/relaxed text-start">{Descripcion}</p>
           {Buton && (
            <div className="mt-8 flex flex-wrap gap-4 justify-center sm:justify-start">

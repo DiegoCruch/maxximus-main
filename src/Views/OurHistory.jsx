@@ -15,7 +15,7 @@ import LeaderShip from "../Assets/Img/Titles/LeadershipT.png"
 const OurHistory = () => {
     return (
         <>
-            <Header img={"bg-[url(./Assets/Img/bg-ourh.png)]"}
+            <Header img={"bg-[url(./Assets/Img/OurStoryBg.png)]"}
                 Titulo={""}
                 Descripcion={"Our most lucruative 100%  commission plans, Our Max out 100% program is designed for both seasoned and aspiring real estate agents who are looking to elevate their business to the next level."}
                 Buton={false}
