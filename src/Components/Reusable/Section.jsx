@@ -25,8 +25,8 @@ const Section = ({ Titulo, Blanco, Descripcion, Buton, img }) => {
     >
       {/* White line on x-axis to the left */}
       <div
-        className={`w-px bg-[#F2F2F3] absolute top-0 left-10 hidden sm:block md:block lg:block xl:block`}
-        style={{ height: secondLineTop }}
+        className={`w-px bg-[#F2F2F3] h-[34.8rem] absolute top-0 left-10 hidden sm:block md:block lg:block xl:block`}
+      
       />
       <div className="absolute inset-0 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
       <div className="flex flex-wrap sm:flex-row items-center justify-center sm:items-start max-h-screen overflow-y-auto">
