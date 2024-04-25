@@ -54,7 +54,7 @@ const Section = ({ Titulo, Blanco, Descripcion, Buton, img }) => {
       </div>
 
       {/* Second white line below the sections */}
-      <div ref={secondLineRef} className="w-full  h-px bg-[#F2F2F3] mt-36 hidden sm:block md:block" />
+      <div ref={secondLineRef} className="w-full  h-px bg-[#F2F2F3] mt-20 hidden sm:block md:block" />
 
       <div className="py-24 justify-center border-b-2 border-y-white">
         <img className="mx-auto my-auto" src={HereT} alt="Property" />
