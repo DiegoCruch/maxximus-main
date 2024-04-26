@@ -2,7 +2,7 @@
   "name": "maxximuss",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://FuturaCreativa.github.io/maxximus-main/build",
+  "homepage": "http://FuturaCreativa.github.io/maxximus-main",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
